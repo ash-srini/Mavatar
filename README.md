@@ -15,6 +15,6 @@ What is used in the application?
 - JQuery AJAX is used to verifiy if the entered email address is valid and to load the image for the valid entry.
 - This application is hosted on Google App engine, the URL is as follows:
   http://mavatargenerator.appspot.com
-- You can also share the rendered image on Facebook with your friends!
+- You can also share the idea on Facebook with your friends!
 
 
