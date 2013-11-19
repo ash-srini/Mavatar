@@ -8,7 +8,7 @@ Get unique avatars that you can share on Facebook.
 - The email address is passed to a util class that creates and returns a MD5 hash value in hexadecimal format 
   to the controller.
 - The controller crestes a url string with this hashed value and the type of avatar selected as a query string 
-  to Gravatar which in turn renders an image that is associated with the MD% hash value.
+  to Gravatar which in turn renders an image that is associated with the MD5 hash value.
 
 What is used in the application?
 - Spring framework is used to create the application.
