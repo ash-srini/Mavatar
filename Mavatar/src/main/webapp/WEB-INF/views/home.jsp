@@ -37,8 +37,7 @@ background-color: black;
 
 <script type="text/javascript">
 $(document).ready(function(){
-	//div to diaplay image is originally hidden
-	//$("#disp").hide();
+
 	
 	//AJAX to check if the entered email is valid or not
 $("#getmavatar").click(function(){
@@ -64,16 +63,7 @@ $("#getmavatar").click(function(){
 				}
 			}
 		});
-		
-	/* 	$.ajax({
-			url : "/identicon/emailAddress?emailaddr="+x+"&mavatartype="+y,
-			type : 'GET',
-			
-			success : function(result){
-				$("#displayimage").load(result);
-				//$("#displayimage").show();
-			}
-		}); */
+
 		
 		$.post("/identicons/emailAddress",
 			{
