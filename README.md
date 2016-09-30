@@ -4,7 +4,7 @@ Mavatar
 Get unique avatars that you can share on Facebook.
 
 - The landing page of the application is a simple jsp page that takes your unique email address as an input 
-  and lets you chood from three different types of avatars.
+  and lets you choose from three different types of avatars.
 - The email address is passed to a util class that creates and returns a MD5 hash value in hexadecimal format 
   to the controller.
 - The controller crestes a url string with this hashed value and the type of avatar selected as a query string 
